@@ -6,10 +6,10 @@ A PowerShell-based tool for migrating permissions between Windows PCs, copying l
 
 - Copy permissions between PCs
 - Copy local groups between PCs
-- Backup and restore permissions
-- Compare permissions between paths
+- Backup ~~and restore~~ permissions
+- ~~Compare permissions between paths~~
 - User-friendly GUI interface
-- Detailed CSV logging
+- ~~Detailed CSV logging~~
 - Progress tracking
 - Group management capabilities
 
@@ -23,9 +23,9 @@ A PowerShell-based tool for migrating permissions between Windows PCs, copying l
 ## Getting Started
 
 1. **Run the Script**
-   - Open PowerShell as Administrator
-   - Navigate to the script directory
-   - Run `.\permission_migration_tool.ps1`
+   - Open **PowerShell ISE** as Administrator
+   - Open the script in PS ISE
+   - F5 or Run
 
 2. **Main Interface**
    - **Source PC (PC1):** Enter the name of the source computer
@@ -35,8 +35,8 @@ A PowerShell-based tool for migrating permissions between Windows PCs, copying l
    - **Log File Path:** Browse to select where to save the CSV log
 
 3. **Recommended Workflow**
-   a. **Test Connection**
-      - Click "Test Connection" to verify both PCs are reachable
+   a. ~~**Test Connection**~~
+      - ~~Click "Test Connection" to verify both PCs are reachable~~
    
    b. **Manage Groups**
       - Click "Manage Groups" to open group management
@@ -52,24 +52,24 @@ A PowerShell-based tool for migrating permissions between Windows PCs, copying l
 1. **Manage Groups**
    - View all local groups on target PC
    - Select groups to remove
-   - Protected groups (Administrators, Users, etc.) cannot be removed
+   - ~~Protected groups (Administrators, Users, etc.) cannot be removed~~
 
-2. **Compare Permissions**
-   - Compare permissions between source and target folders
-   - Shows differences in access rules, owners, and groups
+2. ~~**Compare Permissions**~~
+   - ~~Compare permissions between source and target folders~~
+   - ~~Shows differences in access rules, owners, and groups~~
 
-3. **Restore Backup**
-   - Restore permissions from a previous backup
-   - Select backup file using file dialog
+3. ~~**Restore Backup**~~
+   - ~~Restore permissions from a previous backup~~
+   - ~~Select backup file using file dialog~~
 
 ## Logging
 
-- All operations are logged to a CSV file
+- All operations are logged to a ~~CSV~~ TXT file
 - Log contains:
   - Timestamp
   - Operation level (INFO, WARNING, ERROR, SUCCESS)
   - Detailed operation messages
-- Log file can be opened in Excel for analysis
+- Log file can be opened in ~~Excel~~ **any text editor** for analysis
 
 ## Troubleshooting
 
@@ -86,7 +86,7 @@ A PowerShell-based tool for migrating permissions between Windows PCs, copying l
 3. **Failed Operations**
    - Check the log file for error messages
    - Use "Compare Permissions" to verify results
-   - Consider restoring from backup if needed
+   - ~~Consider restoring from backup if needed~~
 
 ## Security Notes
 
